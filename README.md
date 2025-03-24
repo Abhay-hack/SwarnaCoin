@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# SwarnaCoin Faucet 💧
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official **SwarnaCoin Faucet** DApp! 🎉
 
-## Available Scripts
+SwarnaCoin (SWN) is a decentralized token deployed on the Ethereum Sepolia Testnet. This faucet allows users to claim testnet SWN tokens directly into their connected wallet (e.g., MetaMask).
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🪙 SwarnaCoin Details
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Token Name:** SwarnaCoin
+- **Symbol:** SWN
+- **Network:** Ethereum Sepolia Testnet
+- **Contract Address:** `0xD271a916Ea412580e6F419c697f355CDC11a1271`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Connect your MetaMask wallet
+- Check if you are eligible to claim based on cooldown
+- Claim 100 SWN tokens (Sepolia Testnet)
+- Cooldown period for faucet requests
+- Built with React + Ethers.js + Tailwind CSS
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💧 How to Use the Faucet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Connect Wallet**
+   - Click on "Connect Wallet" button.
+   - Approve wallet connection in MetaMask (ensure you're on Sepolia Testnet).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Claim Tokens**
+   - If you are eligible (cooldown period has passed), you will see the "Claim 100 SWN Tokens" button.
+   - Click the button to claim your tokens.
+   - Tokens will be transferred to your wallet address.
 
-### `npm run eject`
+3. **Cooldown Info**
+   - If the cooldown is still active, the "Cooldown Active" button will appear.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌐 Live Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+👉 [Deployed on Vercel](https://your-vercel-url.vercel.app)  
+*(Replace this with your actual Vercel deployment link)*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧰 Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Frontend:** React.js, Tailwind CSS
+- **Blockchain:** Ethereum Sepolia Testnet
+- **Library:** ethers.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📦 Getting Started (For Developers)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the repository and install dependencies:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/your-username/swarnacoin-faucet.git
+cd swarnacoin-faucet
+npm install
