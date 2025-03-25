@@ -32,7 +32,7 @@ SwarnaCoin (SWN) is a decentralized token deployed on the Ethereum Sepolia Testn
    - Approve wallet connection in MetaMask (ensure you're on Sepolia Testnet).
 
 2. **Claim Tokens**
-   - If you are eligible (cooldown period has passed), you will see the "Claim 100 SWN Tokens" button.
+   - If you are eligible (cooldown period has passed), you will see the "Claim 10 SWN Tokens" button.
    - Click the button to claim your tokens.
    - Tokens will be transferred to your wallet address.
 
