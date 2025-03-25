@@ -43,8 +43,7 @@ SwarnaCoin (SWN) is a decentralized token deployed on the Ethereum Sepolia Testn
 
 ## 🌐 Live Demo
 
-👉 [Deployed on Vercel](https://your-vercel-url.vercel.app)  
-*(Replace this with your actual Vercel deployment link)*
+👉 [Deployed on Vercel](https://swarna-coin.vercel.app/)  
 
 ---
 
