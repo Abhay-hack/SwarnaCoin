@@ -60,6 +60,6 @@ SwarnaCoin (SWN) is a decentralized token deployed on the Ethereum Sepolia Testn
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/swarnacoin-faucet.git
+git clone https://github.com/Abhay-hack/swarnacoin-faucet.git
 cd swarnacoin-faucet
-npm install
+npm install ethers
